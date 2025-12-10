@@ -1,58 +1,50 @@
 body {
-    background-image: url("holidays.png");
-    background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    height: 100vh;
-    
-    
+  background-image: url("holidays.png");
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-position-y: bottom;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
- font-family: "Mountains of Christmas", serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Mountains of Christmas", serif;
   font-weight: 700;
-  font-size: 40px;;
-  color:#A6564E;
-  }
+  font-size: 40px;
+  color: #a6564e;
+}
 
 h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-family:"Happy Monkey", system-ui;
-    font-weight: 800;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 800;
 }
 
 button {
-    border: none;
-    border-radius: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
-    
+  border: none;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
 }
 
 #increment-btn {
-    background: #994F48;
-     font-family: "Happy Monkey", system-ui;
+  background: #994f48;
+  font-family: "Happy Monkey", system-ui;
 }
 
 #save-btn {
-    background: #4B5E45;
-     font-family: "Happy Monkey", system-ui;
+  background: #4b5e45;
+  font-family: "Happy Monkey", system-ui;
 }
-
-
-
-
-
-
 
 .entries {
   font-family: "Happy Monkey", system-ui;
@@ -61,14 +53,13 @@ button {
   font-style: normal;
 }
 .container {
-    border: 5px solid whitesmoke;
-    border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  /* background-color: #C3E0DE; */
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(2px);
 
-
-    max-width: 80%;
-    margin:auto;
-    margin-top : 30px;
-    
-    
+  max-width: 80%;
+  margin: auto;
+  margin-top: 30px;
 }
-
